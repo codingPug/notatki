@@ -1,0 +1,25 @@
+<div class="col-sm-6 col-sm-offset-3 placeholder">
+    {{ form_start(form, {'attr': {'class': 'form-horizontal'} }) }}
+    <div class="form-group">
+        {{ form_label(form.title, 'Tytuł', { 'label_attr': {'class': 'col-sm-1 control-label'} }) }}
+        <div class="col-sm-11">
+            {{ form_widget(form.title, { 'attr': {'class': 'form-control'} }) }}
+        </div>
+    </div>
+    <div class="form-group">
+        {{ form_label(form.text, 'Tekst', { 'label_attr': {'class': 'col-sm-1 control-label'} }) }}
+        <div class="col-sm-11">
+            {{ form_widget(form.text, { 'attr': {'class': 'form-control'} }) }}
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-12">
+            <button type="submit" class="btn btn-default pull-right">Dodaj notatkę</button>
+        </div>
+    </div>
+
+    {{ form_errors(form) }}
+    {{ form_end(form) }}
+</div>
+
+

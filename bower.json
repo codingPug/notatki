@@ -1,0 +1,29 @@
+{
+  "name": "Notatki",
+  "authors": [
+    "codingPug <info@codingpug.pl>"
+  ],
+  "description": "App for storing notes. 5.0 GPA hype!",
+  "main": "app.php",
+  "keywords": [
+    "Notes",
+    "University",
+    "Symfony2",
+    "Wealth"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "react": "^15.2.0",
+    "babel": "*"
+  }
+}
